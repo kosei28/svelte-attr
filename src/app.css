@@ -1,0 +1,14 @@
+[data-theme='light'] {
+    --color-text: #222;
+    --color-background: #eee;
+}
+
+[data-theme='dark'] {
+    --color-text: #eee;
+    --color-background: #222;
+}
+
+body {
+    color: var(--color-text);
+    background: var(--color-background);
+}
